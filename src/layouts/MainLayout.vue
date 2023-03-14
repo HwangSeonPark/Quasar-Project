@@ -1,4 +1,4 @@
-<template>
+<template>//수정확인
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
