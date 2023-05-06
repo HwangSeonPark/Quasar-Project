@@ -68,6 +68,18 @@ const linksList = [
     icon: 'home',
     link: '/todo'
   },
+  {
+    title: "db todo list",
+    caption: "vue + database",
+    icon: "chat",
+    link: "/dbtodo",
+  },
+  {
+    title: "todo test list",
+    caption: "vue + store 과제",
+    icon: "chat",
+    link: "/todotest",
+  },
 
   /**
   {
