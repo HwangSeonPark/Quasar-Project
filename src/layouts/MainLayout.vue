@@ -76,9 +76,15 @@ const linksList = [
   },
   {
     title: "todo test list",
-    caption: "vue + store 과제",
+    caption: "vue + store 과제(X)",
     icon: "chat",
     link: "/todotest",
+  },
+  {
+    title: "db todo list",
+    caption: "vue + database + store 과제",
+    icon: "chat",
+    link: "/dbtodotest",
   },
 
   /**
