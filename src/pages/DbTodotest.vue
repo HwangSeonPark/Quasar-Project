@@ -86,9 +86,10 @@ import useDbTodotestStore from "src/stores/dbtodotest";
 import { mapActions, mapState } from "pinia";
 import DialogCustom from "components/DialogCustom.vue";
 import todoApi from "src/apis/todoApi";
+import { defineComponent } from "vue";
 
 
-export default {
+export default defineComponent({
   name: "Todo",
   title: "DB Todo list test",
   components: { DialogCustom },
@@ -188,7 +189,7 @@ export default {
 
 
   },
-};
+});
 </script>
 
 <style lang="scss">
