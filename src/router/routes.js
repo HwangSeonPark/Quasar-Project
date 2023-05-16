@@ -10,6 +10,8 @@ const routes = [
       { path: "/dbtodo", component: () => import("pages/DbTodo.vue") },
       { path: "/todotest", component: () => import("pages/Todotest.vue") },
       { path: "/dbtodotest", component: () => import("pages/DbTodotest.vue") },
+      { path: "/signin", component: () => import("layouts/SignIn.vue") },
+      { path: "/login", component: () => import("layouts/Login.vue") },
     ]
   },
 
