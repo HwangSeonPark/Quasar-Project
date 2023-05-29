@@ -1,4 +1,4 @@
-/* eslint-env node */
+/* eslint-env node  */
 
 /*
  * This file runs in a Node context (it's NOT transpiled by Babel), so use only
