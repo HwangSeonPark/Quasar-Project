@@ -4,6 +4,7 @@
     tag="a"
     :href="link"
   >
+    <q-item clickable :to="link"></q-item>
     <q-item-section
       v-if="icon"
       avatar

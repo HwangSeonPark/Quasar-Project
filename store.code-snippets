@@ -1,0 +1,25 @@
+{
+	"pinia store": {
+		"scope": "javascript,vue,store",
+		"prefix": "pinia",
+		"body": [
+			"import { defineStore } from 'pinia';","\t",
+			
+			"export const use${TM_FILENAME_BASE/(^([a-z]))/${1:/capitalize}/}Store = defineStore('$TM_FILENAME_BASE', {",
+			"  state: () => ({",
+	  		"  ",
+	  		"  }),",
+			"  getters: {",
+			"  ",
+			"  },",
+			"  actions: {",
+			"  ",
+			"  },",
+	  "});"
+
+
+		],
+		"description": "pinia store",
+
+	}
+}

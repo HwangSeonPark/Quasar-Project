@@ -1,0 +1,27 @@
+{
+	"Vue Init": {
+			"prefix": "vue",
+			"body": [
+				"<template>","\t","</template>","\n",
+				"<script>",
+					"import { defineComponent } from 'vue'","\n",
+					"export default defineComponent({",
+					"  name: '$TM_FILENAME_BASE',",
+					"  title: '',",
+					"  components: {","\t","  },",
+					"  props: {","\t","  },",
+					"  emits: [ ],",
+					"  data() {", "    return {","\t","    }","  },",
+					"  created() {","\t","  },",
+					"  mounted() {","\t","  },",
+					"  computed: {","\t","  },",
+					"  watch: {","\t","  },",
+					"  methods: {","\t","  },",
+					"});",
+				"</script>","\n",
+				"<style scoped lang='scss'>","\n","</style>",
+
+			],
+			"description": "vue basic syntax"
+		}
+}
